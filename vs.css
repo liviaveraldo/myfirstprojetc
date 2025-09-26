@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cmcvs{
+   width: 100%; 
+   background: repeating-linear-gradient(
+    to right,
+    #f1d0c4,
+    #f1d0c4 20px,
+    #e89ca2 20px,
+    #e89ca2 40px
+    );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#lg{
+    width: 100px;
+    margin: 15px;
+}
+
+.menu {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btvs{
+    height: 10vh;
+    margin: 0 25px;
+    padding: 0 15px ;
+    background-color: #e89ca2;
+    border: 2px solid #f1d0c4;
+    color: white;
+}
+
+
+/* Estilo da seção de produtos */
+.produtos {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.produtos h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Grid de produtos */
+.produtos .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Estilo dos itens individuais */
+.produtos .item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#vt{
+ width: 150px;  
+  height: auto;  
+
+}
+.produtos .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.produtos .item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.produtos .item p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.produtos .item p strong {
+  color: #e91e63; /* cor de destaque para preço */
+  font-size: 18px;
+}
+
+
+#vb{
+ width: 150px;  
+  height: auto;
+}
+
+#vc{
+ width: 150px;  
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 2html */
+
+/* Estilo do body */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f1d0c4, #f9f9f9);
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Introdução */
+#intro {
+  text-align: center;
+  padding: 30px 15px;
+  background: #fff0f6;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#intro h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #b30059;
+}
+
+#intro p {
+  font-size: 18px;
+  color: #444;
+  margin-top: 8px;
+}
+
+#bt3 {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 15px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#bt3:hover {
+  background: #e60073;
+  transform: scale(1.05);
+}
+
+/* Main */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Card das Angels */
+.angel {
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.angel:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.angel h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #cc0066;
+}
+
+.angel img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 15px;
+  margin: 10px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.angel p {
+  font-size: 15px;
+  color: #555;
+}
+
+/* Terceiro html*/
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f1d0c4, #f9f9f9);
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #b30059;
+  margin-bottom: 30px;
+}
+
+/* Botão Voltar */
+button {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin: 15px 0;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e60073;
+  transform: scale(1.05);
+}
+
+/* Container principal */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Card das Angels */
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #cc0066;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.card p {
+  font-size: 15px;
+  color: #444;
+}
+
+.highlight {
+  color: #d63384;
+  font-weight: bold;
+}
+
+/* Curiosidades */
+.curiosidades {
+  grid-column: 1 / -1;
+  background: #fff0f6;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.curiosidades h2 {
+  color: #b30059;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.curiosidades ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.curiosidades li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #444;
+}
